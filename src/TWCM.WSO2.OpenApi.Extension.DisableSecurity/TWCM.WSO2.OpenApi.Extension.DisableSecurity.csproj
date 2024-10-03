@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>wso2</PackageTags>
+    <PackageProjectUrl>https://github.com/TWCM/TWCM.WSO2.OpenApi.Extension.DisableSecurity</PackageProjectUrl>
+    <Authors>TWCM</Authors>
+    <Copyright>TWCM</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
