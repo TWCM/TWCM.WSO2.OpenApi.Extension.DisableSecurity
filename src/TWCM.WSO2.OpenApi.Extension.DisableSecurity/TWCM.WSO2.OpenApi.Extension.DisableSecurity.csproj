@@ -12,9 +12,19 @@
 	<DebugType>embedded</DebugType>
 	<PackageReadmeFile>README.MD</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/TWCM/TWCM.WSO2.OpenApi.Extension.DisableSecurity</RepositoryUrl>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<IncludeSymbols>True</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PackageReleaseNotes>initial version</PackageReleaseNotes>
+	<RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\README.MD">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
