@@ -15,9 +15,12 @@
 	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<IncludeSymbols>True</IncludeSymbols>
-	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
 	<PackageReleaseNotes>initial version</PackageReleaseNotes>
 	<RepositoryType>git</RepositoryType>
+	<PackageIcon>nuget.256x249.png</PackageIcon>
+	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
+	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +29,10 @@
       <PackagePath>\</PackagePath>
     </None>
     <None Include="..\..\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="\\Mac\Home\Downloads\nuget.256x249.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
