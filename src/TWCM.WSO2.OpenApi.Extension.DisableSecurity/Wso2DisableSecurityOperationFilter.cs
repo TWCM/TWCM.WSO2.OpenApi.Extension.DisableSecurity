@@ -5,8 +5,16 @@ using System.Linq;
 
 namespace TWCM.WSO2.OpenApi.Extension.DisableSecurity
 {
+    /// <summary>
+    /// Wso2DisableSecurityOperationFilter
+    /// </summary>
     public class Wso2DisableSecurityOperationFilter : IOperationFilter
     {
+        /// <summary>
+        /// Apply
+        /// </summary>
+        /// <param name="operation"></param>
+        /// <param name="context"></param>
         public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
 

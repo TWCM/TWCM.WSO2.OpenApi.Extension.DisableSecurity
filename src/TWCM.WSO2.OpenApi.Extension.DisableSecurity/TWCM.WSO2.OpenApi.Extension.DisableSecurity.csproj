@@ -21,6 +21,15 @@
 	<PackageIcon>nuget.256x249.png</PackageIcon>
 	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
 	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>portable</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
