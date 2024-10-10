@@ -23,6 +23,8 @@
 	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
 	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
