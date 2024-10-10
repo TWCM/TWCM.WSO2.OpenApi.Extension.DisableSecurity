@@ -9,7 +9,8 @@
     <Authors>TWCM</Authors>
     <Copyright>TWCM</Copyright>
 	<EnablePackageValidation>true</EnablePackageValidation>
-	<DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+	<DebugType>portable</DebugType>
 	<PackageReadmeFile>README.MD</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/TWCM/TWCM.WSO2.OpenApi.Extension.DisableSecurity</RepositoryUrl>
 	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -22,6 +23,8 @@
 	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
 	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<IncludeSourceLink>true</IncludeSourceLink>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
