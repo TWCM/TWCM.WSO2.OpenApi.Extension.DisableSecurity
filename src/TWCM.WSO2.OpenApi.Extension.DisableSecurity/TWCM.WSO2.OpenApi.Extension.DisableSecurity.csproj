@@ -15,16 +15,14 @@
 	<RepositoryUrl>https://github.com/TWCM/TWCM.WSO2.OpenApi.Extension.DisableSecurity</RepositoryUrl>
 	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-	<IncludeSymbols>True</IncludeSymbols>
-	<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+	<IncludeSymbols>False</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	<PackageReleaseNotes>initial version</PackageReleaseNotes>
 	<RepositoryType>git</RepositoryType>
 	<PackageIcon>nuget.256x249.png</PackageIcon>
 	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
 	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
-	<PublishRepositoryUrl>true</PublishRepositoryUrl>
-	<IncludeSourceLink>true</IncludeSourceLink>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
