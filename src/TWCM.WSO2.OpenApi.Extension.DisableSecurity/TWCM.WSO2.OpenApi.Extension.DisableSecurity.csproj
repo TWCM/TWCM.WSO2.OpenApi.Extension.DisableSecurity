@@ -17,14 +17,15 @@
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<IncludeSymbols>False</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-	<PackageReleaseNotes>initial version</PackageReleaseNotes>
+	<PackageReleaseNotes>update 1.0.1</PackageReleaseNotes>
 	<RepositoryType>git</RepositoryType>
 	<PackageIcon>nuget.256x249.png</PackageIcon>
 	<Description>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Description>
 	<Title>TWCM.WSO2.OpenApi.Extension.DisableSecurity</Title>
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-
+	  <AssemblyVersion></AssemblyVersion>
+	  <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
