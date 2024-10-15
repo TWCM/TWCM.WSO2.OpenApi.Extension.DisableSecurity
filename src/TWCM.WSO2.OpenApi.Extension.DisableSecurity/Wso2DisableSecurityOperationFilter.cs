@@ -27,7 +27,11 @@ namespace TWCM.WSO2.OpenApi.Extension.DisableSecurity
 
                 operation.Extensions.Add("x-wso2-disable-security", new OpenApiBoolean(methodAttributes.First().IsEnable));
 
+                if (methodAttributes.First().IsEnable)
+                {
+                    operation.Extensions.Add("x-auth-type", new OpenApiString("None"));
 
+                }
                 return;
             }
             if (classAttributes.Any())
@@ -35,6 +39,10 @@ namespace TWCM.WSO2.OpenApi.Extension.DisableSecurity
 
 
                 operation.Extensions.Add("x-wso2-disable-security", new OpenApiBoolean(classAttributes.First().IsEnable));
+                if (classAttributes.First().IsEnable) { 
+                operation.Extensions.Add("x-auth-type", new OpenApiString("None"));
+
+                }
 
 
                 return;
